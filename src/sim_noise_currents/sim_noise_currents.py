@@ -21,7 +21,7 @@ def main():
         msg.header.frame_id = 'sim_noise_currents'
         msg.header.stamp = rospy.Time.now()
         msg.header.seq = count
-        msg.vector.x = 1.0
+        msg.vector.x = 1.5
         msg.vector.y = 0.0
         msg.vector.z = 0.0
         pub.publish(msg)
