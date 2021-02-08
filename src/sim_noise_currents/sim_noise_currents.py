@@ -22,7 +22,7 @@ def main():
         msg.header.stamp = rospy.Time.now()
         msg.header.seq = count
         msg.vector.x = 1.5
-        msg.vector.y = 0.0
+        msg.vector.y = 0.7
         msg.vector.z = 0.0
         pub.publish(msg)
         count += 1
